@@ -1,9 +1,7 @@
-#include <iostream>
-#include <string>
+#include "unitTest.h"
 
 int main() {
-	std::string tString = "THIS IS A TEST STRING.";
-	std::cout << tString << std::endl;
-
+	// call the unit test function
+	unitTestFunc();
 	return 0;
 }
