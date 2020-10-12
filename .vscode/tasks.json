@@ -4,19 +4,8 @@
 		{
 			"type": "shell",
 			"label": "C/C++: g++ build active file",
-			"command": "/usr/bin/g++",
-			"args": [
-				"-g",
-				"-Wall",
-				"-Wextra",
-				"-Wconversion",
-				"-pedantic",
-				"-std=c++2a",
-				"-Ihdr",
-				"${workspaceFolder}/src/*.cpp",
-				"-o",
-				"${workspaceFolder}/a"
-			],
+			"command": "make",
+
 			"options": {
 				"cwd": "${workspaceFolder}"
 			},
