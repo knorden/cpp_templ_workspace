@@ -1,7 +1,7 @@
-#include "unitTest.h"
+#include "unitTest.hpp"
 
 int main() {
-	// call the unit test function
-	unitTestFunc();
-	return 0;
+  // call the unit test function
+  unitTestFunc();
+  return 0;
 }

@@ -1,8 +1,12 @@
-#include "unitTest.h"
+#include "unitTest.hpp"
 
 void unitTestFunc() {
-	std::string tString = "THIS IS A TEST STRING.";
-	std::cout << tString << std::endl;
+  /* SETUP TEST: OUTPUT STRING */
+  std::string tString = "THIS IS A TEST STRING.";
+  std::cout << tString << std::endl;
 
-	return;
+  /**/
+
+  /**/
+  return;
 }
