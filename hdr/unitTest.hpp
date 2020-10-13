@@ -4,7 +4,9 @@
 /* NECCESSARY STL */
 #include <iostream>
 
-/* UNIT TEST */
-void unitTestFunc();
+/* UNIT TEST FUNCTION */
+bool unitTestFunc();
+void pfCheck(bool, std::string);
+void errCatch(bool, std::string);
 
 #endif
