@@ -9,7 +9,7 @@ bool unitTestFunc() {
   /* INIT TEST: OUTPUT STRING */
   thisTest = "INIT OUTPUT";
   std::cout << "\n\nTEST #" << testNum << ": " + thisTest << std::endl;
-  std::cout << "---------------------------------------------\n";
+  std::cout << "---------------------------------------------------\n";
   allPassed = []() {
     std::string tString = "THIS IS A TEST STRING.";
     std::cout << tString << std::endl;
@@ -21,13 +21,13 @@ bool unitTestFunc() {
   thisTest = "";
   ++testNum;
   std::cout << "\n\nTEST #" << testNum << ": " + thisTest << std::endl;
-  std::cout << "---------------------------------------------\n";
+  std::cout << "---------------------------------------------------\n";
 
   /* TEST: */
   thisTest = "";
   ++testNum;
   std::cout << "\n\nTEST #" << testNum << ": " + thisTest << std::endl;
-  std::cout << "---------------------------------------------\n";
+  std::cout << "---------------------------------------------------\n";
 
   return allPassed;
 }
